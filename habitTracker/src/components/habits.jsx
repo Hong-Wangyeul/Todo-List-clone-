@@ -20,7 +20,7 @@ export default class Habits extends Component {
   };
 
   render() {
-    return (
+    return ( 
       <>
         <HabitAddForm onAdd={this.handleAdd} />
         <ul>
